@@ -1,0 +1,61 @@
+.select{
+   // margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+    .selectLabel{
+        padding: 5px 5px 1px;
+        font-size: 15px;
+    }
+
+    .selectField {
+        position: relative;
+        height: 30px;
+        width: 320px;
+        padding: 4px 8px;
+        border: 1px solid #000;
+        background-color: #fff;
+        font-size: 16px;
+        outline: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-image: url(../../assets/angle-down-dark_dkyopo.png);
+        background-size: 22px;
+        background-repeat: no-repeat;
+        background-position: right 10px center;
+
+        .options {
+            list-style-type: none;
+            position: absolute;
+            width: 100%;
+            top: 15px;
+            left: 0;
+            border: 1px solid rgb(144, 149, 158);
+            background-color: #fff;
+            border-radius: 12px;
+            margin: 12px 0 0 0;
+            padding: 4px 8px;
+            box-sizing: border-box;
+            z-index: 1;
+
+            li {
+                padding: 4px;
+
+                &:hover {
+                    color: #50c281;
+                }
+            }
+
+        }
+
+        &.disabled{
+            opacity: 0.5;
+            cursor: not-allowed;
+            pointer-events: none;
+        }
+    }
+}
+
+

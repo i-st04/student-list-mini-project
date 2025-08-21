@@ -1,0 +1,1 @@
+.input{display:flex;flex-direction:row}.input .inputField{height:30px;width:320px;padding:4px 8px;border:1px solid #000;background-color:#fff;font-size:16px;outline:none;box-sizing:border-box}.input.small .inputField{width:200px;height:28px}.input label{padding:0px 5px 1px;font-size:15px;margin-top:5px}/*# sourceMappingURL=Input.module.css.map */
